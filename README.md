@@ -8,7 +8,7 @@ function from a source archive in Cloud Storage and runs it on Cloud Run.
 
 ```hcl
 module "function" {
-  source = "github.com/cybercapybara/terraform-google-cloud-functions"
+  source = "github.com/moveeeax/terraform-google-cloud-functions"
 
   project_id    = var.project_id
   name          = "processor"
